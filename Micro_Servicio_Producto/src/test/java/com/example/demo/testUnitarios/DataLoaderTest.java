@@ -36,6 +36,8 @@ void testRun_WhenDatabaseIsEmpty_ShouldSaveProducts() throws Exception {
     
     List<ProductoModel> listaCapturada = captor.getValue();
 
+// Actualizar productos 
+
     assertEquals(5, listaCapturada.size());
     assertEquals("Pastel de Chocolate", listaCapturada.get(0).getName());
     assertEquals("selva_negra.webp", listaCapturada.get(4).getImagenUrl().substring(listaCapturada.get(4).getImagenUrl().lastIndexOf("/") + 1));
