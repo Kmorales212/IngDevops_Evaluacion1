@@ -11,7 +11,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+// Controlador REST para gestionar productos en el catálogo de pastelería
 @RestController
 @RequestMapping("/api/productos")
 @Tag(name = "Catálogo de Productos", description = "Operaciones del inventario de pastelería")
